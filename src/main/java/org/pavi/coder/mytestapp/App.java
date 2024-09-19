@@ -18,6 +18,7 @@ public class App {
         System.out.println("Hello World!");
         
         UiAutomator2Options caps = new UiAutomator2Options();
+        
         caps.setCapability("platformName", "Android");
         caps.setCapability("deviceName", "5587cee2"); // Replace with your device name
         caps.setCapability("automationName", "UiAutomator2"); // Use UiAutomator2

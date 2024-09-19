@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
@@ -12,6 +12,7 @@
   <url>http://www.example.com</url>
 
   <properties>
+    <maven-exec-plugin-artifactId>maven-exec-plugin</maven-exec-plugin-artifactId>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>17</maven.compiler.release>
   </properties>
@@ -34,10 +35,11 @@
     <artifactId>java-client</artifactId>
     <version>9.3.0</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>7.9.0</version>
+    <version>7.10.0</version>
     <scope>test</scope>
 </dependency>
 
@@ -46,7 +48,14 @@
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
-        <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
+		<plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>exec-maven-plugin</artifactId>
+    <version>3.4.1</version>
+    <configuration>
+        <mainClass>org.pavi.coder.mytestapp.App</mainClass>
+    </configuration>
+</plugin>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.4.0</version>
