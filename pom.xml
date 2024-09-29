@@ -34,16 +34,17 @@
     <groupId>io.appium</groupId>
     <artifactId>java-client</artifactId>
     <version>9.3.0</version>
-</dependency>
+    </dependency>
+
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-<dependency>
+
+	<dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.10.0</version>
     <scope>test</scope>
-</dependency>
-
-  </dependencies>
+	</dependency>
+  	</dependencies>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
