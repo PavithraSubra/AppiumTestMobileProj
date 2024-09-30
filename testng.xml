@@ -3,7 +3,7 @@
 <suite name="Surefire suite" verbose="0">
   <test thread-count="5" name="Surefire test" verbose="0">
     <classes>
-      <class name="org.pavi.coder.mytestapp.AppTest"/>
+      <class name="org.pavi.coder.mytestapp.AppiumTest"/>
       <class name="org.pavi.coder.mytestapp.BaseTest"/>
     </classes>
   </test> <!-- Surefire test -->

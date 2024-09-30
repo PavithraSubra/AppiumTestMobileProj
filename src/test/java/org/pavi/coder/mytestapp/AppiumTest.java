@@ -4,15 +4,12 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 
-import org.openqa.selenium.remote.CapabilityType;
 import org.testng.annotations.Test;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.options.UiAutomator2Options;
 
 /**
  * Unit test for simple App.
  */
-public class AppTest extends BaseTest {
+public class AppiumTest extends BaseTest {
 
     /**
      * Rigorous Test :-)

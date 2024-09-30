@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-30T10:38:57 IST" name="Surefire suite" finished-at="2024-09-30T10:39:35 IST" duration-ms="37088">
+  <suite started-at="2024-09-30T11:21:04 IST" name="Surefire suite" finished-at="2024-09-30T11:21:33 IST" duration-ms="29038">
     <groups>
     </groups>
-    <test started-at="2024-09-30T10:38:57 IST" name="Surefire test" finished-at="2024-09-30T10:39:35 IST" duration-ms="37088">
-      <class name="org.pavi.coder.mytestapp.AppTest">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.pavi.coder.mytestapp.AppTest@123ef382]" started-at="2024-09-30T10:38:58 IST" name="ConfigureAppium" finished-at="2024-09-30T10:39:30 IST" duration-ms="32639" status="PASS">
+    <test started-at="2024-09-30T11:21:04 IST" name="Surefire test" finished-at="2024-09-30T11:21:33 IST" duration-ms="29038">
+      <class name="org.pavi.coder.mytestapp.AppiumTest">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.pavi.coder.mytestapp.AppiumTest@123ef382]" started-at="2024-09-30T11:21:04 IST" name="ConfigureAppium" finished-at="2024-09-30T11:21:28 IST" duration-ms="24168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="testAppium()[pri:0, instance:org.pavi.coder.mytestapp.AppTest@123ef382]" started-at="2024-09-30T10:39:30 IST" name="testAppium" finished-at="2024-09-30T10:39:33 IST" duration-ms="3259" status="PASS">
+        <test-method signature="testAppium()[pri:0, instance:org.pavi.coder.mytestapp.AppiumTest@123ef382]" started-at="2024-09-30T11:21:28 IST" name="testAppium" finished-at="2024-09-30T11:21:32 IST" duration-ms="3751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAppium -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.pavi.coder.mytestapp.AppTest@123ef382]" started-at="2024-09-30T10:39:33 IST" name="tearDown" finished-at="2024-09-30T10:39:35 IST" duration-ms="1156" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.pavi.coder.mytestapp.AppiumTest@123ef382]" started-at="2024-09-30T11:21:32 IST" name="tearDown" finished-at="2024-09-30T11:21:33 IST" duration-ms="1089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- org.pavi.coder.mytestapp.AppTest -->
+      </class> <!-- org.pavi.coder.mytestapp.AppiumTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
