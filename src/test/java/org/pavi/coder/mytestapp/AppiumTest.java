@@ -4,6 +4,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 /**
@@ -18,14 +19,14 @@ public class AppiumTest extends BaseTest {
     @Test
     public void testAppium() {
     	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        driver.get("https://www.prismcloudinc.com/services");
+        driver.get("https://practice-automation.com/form-fields/");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         System.out.println("Web application started");
+        
         // Perform actions on the web page
         // ... 
         
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-   //     driver.findElement(new AppiumBy.ByAndroidUIAutomator("new UiSelector().text(\"We create digital solutions.\")")).isDisplayed();
 
 	
     }
